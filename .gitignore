@@ -1,0 +1,7 @@
+# Source/working files in the project root (not part of the website)
+/*.png
+/*.jpeg
+/*.jpg
+assets/img/poster.jpg
+deploy/
+.claude/
