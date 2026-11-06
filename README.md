@@ -32,4 +32,13 @@ python -m http.server 5612
 Then open http://localhost:5612
 
 ## Hosting
-Upload the folder to any static host: Netlify (drag and drop), GitHub Pages, Cloudflare Pages, or cPanel `public_html`.
+Live on GitHub Pages: https://yasiru-hasaranjala.github.io/travel-with-sam/
+
+To update the live site, commit and push to `main`; GitHub Pages rebuilds in about 1–2 minutes:
+```
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+A custom domain (e.g. travelwithsam.lk) can be added later under the repo's Settings → Pages.
